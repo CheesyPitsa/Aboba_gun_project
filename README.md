@@ -5,7 +5,7 @@
 ```
 git clone https://github.com/CheesyPitsa/Aboba_gun_project
 ```
-2. Загрузите библиотеки ultralytics, flask, pillow и waitress с помощью терминала
+2. Загрузите библиотеки ultralytics, flask и pillow с помощью терминала
 
     Пример команды:
 ```
