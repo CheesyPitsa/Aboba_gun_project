@@ -2,12 +2,15 @@ from ultralytics import YOLO
 from flask import request, Flask, jsonify
 from PIL import Image
 
-app = Flask(__name__)
+app = Flask(__name__,
+            static_url_path='',
+            static_folder='web/static',
+            template_folder='web/templates')
 
 
 @app.route("/")
 def root():
-    with open("index.html") as file:
+    with open("web/templates/index.html") as file:
         return file.read()
 
 
