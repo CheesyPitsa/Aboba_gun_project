@@ -68,10 +68,10 @@ function draw_image_and_boxes(file,boxes) {
     img.src = URL.createObjectURL(file);
     img.onload = () => {
         const canvas = document.querySelector("canvas");
-        canvas.width = img.width;
-        canvas.height = img.height;
+        canvas.width = 1920;
+        canvas.height = 2120;
         const ctx = canvas.getContext("2d");
-        ctx.drawImage(img,0,0);
+        ctx.drawImage(img,700, 1200);
         ctx.strokeStyle = "#00FF00";
         ctx.lineWidth = 3;
         ctx.font = "18px serif";

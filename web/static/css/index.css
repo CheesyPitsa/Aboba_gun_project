@@ -68,6 +68,7 @@ body{
   }
   
   .curtain {
+    position: absolute;
     float: left; /* выравниваем элементы по левому краю */
     width: 3%;
     height: 100%;
