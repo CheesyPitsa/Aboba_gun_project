@@ -22,20 +22,35 @@
 ```
 git clone https://github.com/CheesyPitsa/Aboba_gun_project
 ```
+![image](https://github.com/CheesyPitsa/Aboba_gun_project/assets/79397356/7466a174-26dc-4753-916e-bf2b0b7af92f)
 
 3. Через терминал установите необходимые зависимости:
+
+Перед запуском провертье, что requirements.txt находиться в корневой папке.
 
 ```
 pip install -r requirements.txt
 ```
-  
+
+и/или
+
+```
+pip install ultralytics
+pip install flask
+pip install PIL
+```
+  ![image](https://github.com/CheesyPitsa/Aboba_gun_project/assets/79397356/07cf7055-99f2-4e2b-87c2-9d17fd69cc47)
+
 4. Перейдите в каталог проекта:
 
 ```
 Aboba_gun_project
 ```
+![image](https://github.com/CheesyPitsa/Aboba_gun_project/assets/79397356/5af35cb1-13d7-405e-82ba-b9152dd8e531)
 
 5. Правой клавишей нажмите на файл main.py, из выпадающего меню выберите пункт Run. Запустите проект.
+
+![image](https://github.com/CheesyPitsa/Aboba_gun_project/assets/79397356/5c4267ef-97ba-443d-ac78-2b878044edac)
 
 ## Использование
 
